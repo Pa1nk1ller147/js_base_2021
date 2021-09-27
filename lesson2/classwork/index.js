@@ -1,3 +1,4 @@
 console.log("привет я из Node JS");
 
-const name = "Alex";
+
+const name = "Alexey";
