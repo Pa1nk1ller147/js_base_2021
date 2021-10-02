@@ -55,10 +55,18 @@
 // console.log(+stringValue + numberValue);
 // console.log(typeof (numberValue + +stringValue));
 
-const firstName = "Alex";
-// coio
-const lastName = "ivanov";
+// const firstName = "Alex";
+// // coio
+// const lastName = "ivanov";
 
-console.log(firstName + " " + lastName);
+// console.log(firstName + " " + lastName);
 
-console.log(`${firstName} ${lastName}`);
+// console.log(`${firstName} ${lastName}`);
+
+//Операции сравнения
+// console.log(false == 5);
+
+const firstString = "яблоко";
+const srcondString = "яблоко";
+
+console.log(firstString == srcondString);
