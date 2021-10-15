@@ -156,3 +156,88 @@
 
 // let a = 1
 // a != true ? console.log('Верно') : console.log('Неверно')
+
+
+/*                   Работа с && (и) и || (или)                         */
+// const a = 1;
+// const b = 1;
+// a > 0 && a < 5 ? console.log('Верно') : console.log('Неверно')
+
+// const a = 10;
+// a == 0 || a == 2 ? console.log(a+7) : console.log(a/10)
+
+// const a = 1;
+// const b = 4;
+// a <= 1 && b >=3 ? console.log(a+b) : console.log(a-b)
+
+// const a = 3;
+// const b = 4;
+// (a > 2 || a <11) && (b >= 6 || b < 14) ? console.log('Верно') : console.log('Неверно')
+
+
+/*             На switch-case                     */
+// let num = 3;
+// let result;
+// switch (num) {
+//   case 1:
+//     result = 'Зима'
+//     console.log(result);
+//     break;
+//   case 2:
+//     result = 'Весна'
+//     console.log(result);
+//     break;
+//   case 3:
+//     result = 'Лето'
+//     console.log(result);
+//     break;
+//   case 4:
+//     result = 'Осень'
+//     console.log(result);
+//     break;
+// }
+
+
+
+/*                  Общие задачи              */
+// let day = 12;
+// let result;
+
+// if(day >= 1 && day <11) {
+//   result = '1 декада';
+//   console.log(result);
+// }
+// if(day >=12 && day < 21) {
+//   result = '2 декада';
+//   console.log(result);
+// }
+// if(day >= 21 && day <=31) {
+//   result = '3 декада';
+//   console.log(result);
+// }
+
+// let month = 3;
+// let result;
+
+// if(month >= 1 && month <2 && month ==12) {
+//   result = 'Зима';
+//   console.log(result);
+// }
+// else if(month >=3 && month <=5) {
+//   result = 'Весна';
+//   console.log(result);
+// }
+// else if(month >=6 && month <=8) {
+//   result = 'Лето';
+//   console.log(result);
+// }  
+// else if(month >=9 && month <=11) {
+//   result = 'осень';
+//   console.log(result);
+// }
+
+let str = 'abcde'
+console.log('abcde'.match([a]))    /* в этой и следующей задаче в решении нужны [], насколько я понял. Мы их не проходили, сам разобраться не успел. */
+
+
+/*  Дальше не успел сделать, доделаю в ближайшие пару дней.  */
