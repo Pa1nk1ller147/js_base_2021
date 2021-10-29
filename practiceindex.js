@@ -66,3 +66,60 @@
 //   }
 // }
   
+
+// let user = {}
+// user.name = 'John';
+// user.surname = 'Smith';
+// user.name = 'Pete';
+// delete user.name;
+// console.log(user.name);
+
+// let salaries = {
+//   // John: 100,
+//   // Ann: 160,
+//   // Pete: 130
+// }
+// let sum = 0
+// for (let key in salaries){
+//   sum += salaries[key];
+// }
+// console.log(sum);
+
+/* Создайте функцию multiplyNumeric(obj), которая умножает все числовые свойства объекта obj на 2. */
+// let menu = {
+//   width: 200,
+//   height: 300,
+//   title: "My menu"
+// };
+
+// let a = 0
+// if(a==0 || a==2){
+//   console.log(a+7);
+// }else{console.log(a/10);}
+
+// let a = 3
+// let b = 5
+// if((a >2 && a <11)||(b>=6 && b<14)){
+//   console.log("da");
+// }else{
+//   console.log("net");
+// }
+
+let num = 'two'
+switch (num) {
+  case 'one': 
+  console.log('winter');
+  break;
+  case 'two':
+    console.log('spring');
+    break;
+    case 'three': 
+    console.log('summer');
+    break;
+    case 'fore': 
+    console.log('autumn');
+    break
+  }
+
+
+
