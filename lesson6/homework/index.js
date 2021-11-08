@@ -36,12 +36,32 @@
 
 
 /* 5. Первая буква каждого слова заглавная */
-// var str = "каждый охотник желает знать";  
- 
+// var str = "каждый охотник желает знать";   
 // function capitalize(str) {
+//     let strSplit = str.split([" "])
+//     function (strSplit[0]) {
+//         let big = str[0].toUpperCase() + str.slice(1);
+//     return big
+//     }
+//     return strSplit
+    
+// }
+// console.log(capitalize(str));
 
-// Ваш код
 
-
-
+var str = "каждый охотник желает знать";
+function capitalize(str) {
+var newStr = "";
+    newStr +=str[0].toUpperCase();
+    for (let i = 1; i<str.length; i++){
+            if (str[i] === " "){
+                newStr += str[i];
+                newStr += str[i+1].toUpperCase();
+                i++;
+            }else{
+                newStr +=str[i];
+            }
+        }return newStr;
+}
+console.log(capitalize(str));
 
