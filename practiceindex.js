@@ -337,9 +337,13 @@
 
 // Даны натуральное число n и вещественные числа a1, a2, ..., an. 
 // Определить среднееарифметическое вещественных чисел
-let n = 10
-for (a=1; a<=n; a++){
-  let sum = 0
-  sum = sum + a
-  console.log(sum/a);
+let arr = [2, 5, 7, 3, 7, 2, 0, 5, 5, 16, 34, 23 ]
+let n = 5
+let sum = 0
+for (a=0; a<n; a++){
+  console.log("arr", arr[a]);
+  sum = sum + arr[a]
+  console.log("sum", sum);
+  // ;
 }
+console.log("итог", sum/n)
